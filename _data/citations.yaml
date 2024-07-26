@@ -56,3 +56,47 @@
   link: https://doi.org/fzfx3v
   plugin: sources.py
   file: sources.yaml
+- id: doi:10.3389/fncom.2010.00014
+  title: Directed coupling in local field potentials of macaque V4 during visual short-term
+    memory revealed by multivariate autoregressive models
+  authors:
+  - Gregor M. Hoerzer
+  publisher: Frontiers in Computational Neuroscience
+  date: '2010-01-01'
+  link: https://doi.org/fd7jwr
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.1167/9.5.14
+  title: Color and shape interactions in the recognition of natural scenes by human
+    and monkey observers
+  authors:
+  - S. Liebe
+  - E. Fischer
+  - N. K. Logothetis
+  - G. Rainer
+  publisher: Journal of Vision
+  date: '2009-05-01'
+  link: https://doi.org/ct32f2
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.1523/JNEUROSCI.1791-10.2011
+  title: Dissociable Effects of Natural Image Structure and Color on LFP and Spiking
+    Activity in the Lateral Prefrontal Cortex and Extrastriate Visual Area V4
+  authors:
+  - S. Liebe
+  - N. K. Logothetis
+  - G. Rainer
+  publisher: Journal of Neuroscience
+  date: '2011-07-13'
+  link: https://doi.org/cq5qkd
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.3389/fnbeh.2011.00073
+  title: Cholinergic control of visual categorization in macaques
+  authors:
+  - Nikolaos C. Aggelopoulos
+  publisher: Frontiers in Behavioral Neuroscience
+  date: '2011-01-01'
+  link: https://doi.org/b8hrgt
+  plugin: sources.py
+  file: sources.yaml
