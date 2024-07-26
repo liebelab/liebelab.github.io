@@ -1,0 +1,41 @@
+
+{% assign member = include %}
+
+
+<div class="portrait-wrapper">
+  <a
+    
+    href="{{ member.website }}"
+  
+    class="portrait"
+    data-style="{{ include.style }}"
+    aria-label="{{ member.name | default: "member link" }}"
+  >
+
+    <img
+      src="{{ member.image | relative_url }}"
+      class="portrait-image"
+      alt="member portrait"
+      loading="lazy"
+      {% include fallback.html %}
+    >
+
+    {% if member.name %}
+      <span class="portrait-name">
+        {{ member.name }}
+      </span>
+    {% endif %}
+
+    {% if member.dept %}
+      <span class="portrait-description">
+        {{ member.dept}}
+      </span>
+    {% endif %}
+
+    {% if member.affiliation %}
+      <span class="portrait-affiliation">
+        {{ member.affiliation }}
+      </span>
+    {% endif %}
+  </a>
+</div>
