@@ -21,7 +21,7 @@ __Neural interaction during context dependent visual processing in the human med
 The goal of the project is to investigate and disentangle the functional contribution of feedforward and feedback signalling during contextual manipulation across several regions within the human MTL. We aim to answer the following question: Is task modulation accompanied by changes in the magnitude and direction of interareal interaction engaging specific partners within the MTL network that is dependent on their known functional specializations? By analyzing spike trains and local field potentials across MTL, we aim to uncover how interareal interactions and oscillatory synchrony contribute to contextual influences. Our approach includes pairwise analyses,  multivariate measures and data-constrained recurrent neural network modelling to assess the directed functional interactions between these regions.
 
 {% endcapture %}
-{% include feature.html image="images/context_bg.png"   text=text %}
+{% include feature.html image="images/context.png"   text=text %}
 
 
 {% include section.html %}
