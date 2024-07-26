@@ -1,0 +1,45 @@
+# DO NOT EDIT, GENERATED AUTOMATICALLY
+
+- id: doi:10.1101/2024.06.13.598791
+  title: Decoding movie content from neuronal population activity in the human medial
+    temporal lobe
+  authors:
+  - Franziska Gerken
+  - Alana Darcher
+  - "Pedro J Gon\xE7alves"
+  - Rachel Rapp
+  - Ismail Elezi
+  - Johannes Niediek
+  - Marcel S Kehl
+  - Thomas P Reber
+  - Stefanie Liebe
+  - Jakob H Macke
+  - Florian Mormann
+  - "Laura Leal-Taix\xE9"
+  publisher: Cold Spring Harbor Laboratory
+  date: '2024-06-13'
+  link: https://doi.org/m483
+  orcid: 0000-0003-2873-2943
+  stefanie-liebe: true
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.1101/2022.09.25.509370
+  title: Phase of firing does not reflect temporal order in sequence memory of humans
+    and recurrent neural networks
+  authors:
+  - Stefanie Liebe
+  - Johannes Niediek
+  - Matthijs Pals
+  - Thomas P. Reber
+  - Jenny Faber
+  - Jan Bostroem
+  - Christian E. Elger
+  - Jakob H. Macke
+  - Florian Mormann
+  publisher: Cold Spring Harbor Laboratory
+  date: '2022-09-27'
+  link: https://doi.org/gszj8z
+  orcid: 0000-0003-2873-2943
+  stefanie-liebe: true
+  plugin: orcid.py
+  file: orcid.yaml
