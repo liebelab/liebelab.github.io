@@ -3,7 +3,6 @@ image: /images/raees.jpg
 name: Mohammed Raees MK
 role: phd
 affiliation: Universitätsklinikum Tübingen
-
 link:raees
 https://github.com/liebelab/liebelab.github.io/blob/main/_members/raess.md
 email: 
@@ -15,7 +14,7 @@ google-scholar:
 
 # Profile
 
-Mohammed Raees Musliyar Kurungattil (MK) is a PhD student at the Universitätsklinikum Tübingen, where he is part of the [MSCA Doctoral Network CherISH](Link: https://cherish-network.eu/), working within the DC2 track. His research focuses on modeling the neurophysiological correlates of spatial hearing using deep neural networks. Raees conducts his work within the C3N group under the supervision of [Dr. Stefanie Leibe](link: https://liebelab.github.io/members/stefanie-liebe.html) and collaborates as an associate PhD student with Dr. Jacob Macke from the [Machine Learning in Science group](Link: https://www.mackelab.org/)
+Mohammed Raees Musliyar Kurungattil (MK) is a PhD student at the Universitätsklinikum Tübingen, where he is part of the [MSCA Doctoral Network CherISH](https://cherish-network.eu/), working within the DC2 track. His research focuses on modeling the neurophysiological correlates of spatial hearing using deep neural networks. Raees conducts his work within the C3N group under the supervision of [Dr. Stefanie Leibe](https://liebelab.github.io/members/stefanie-liebe.html) and collaborates as an associate PhD student with Dr. Jacob Macke from the [Machine Learning in Science group](https://www.mackelab.org/)
 He holds a BS-MS degree from the Indian Institute of Science, Bangalore, where he specialized in theoretical and computational neuroscience. Following his studies, he gained four years of experience as a data scientist in industrial R&D at Tally Solutions Pvt. Ltd., Bangalore, focusing on natural language processing and mathematical modeling.
 Raees’s research interests lie in developing brain-inspired machine learning algorithms, with a particular focus on learning, memory, and neural information representation. He is also deeply interested in Explainable AI and the interpretability of machine learning models. He believes that understanding the brain’s computational challenges can transform AI, while advances in AI can enhance our understanding of the brain.
 Outside of his work in neuro-AI, he enjoys  everything football - playing, watching and writing codes to analyse the game.
