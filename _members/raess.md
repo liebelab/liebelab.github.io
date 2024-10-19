@@ -5,12 +5,11 @@ role: phd
 affiliation: Universitätsklinikum Tübingen
 
 
-link: raees
-https://github.com/liebelab/liebelab.github.io/blob/main/_members/raess.md
-email: 
-linkedin: 
-github:  https://github.com/mkraees
-google-scholar: 
+links:
+  email: 
+  linkedin: 
+  github:  https://github.com/mkraees
+  google-scholar: 
 ---
 
 
