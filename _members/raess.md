@@ -21,11 +21,10 @@ Outside of his work in neuro-AI, he enjoys  everything football - playing, watch
 
 # Publications
 
-
 **Shape analysis of gamma rhythm supports a superlinear inhibitory regime in an inhibition-stabilized network.**\
 Krishnakumaran R, *Raees M*, Ray S (2022).  PLoS Comp. Bio. 
 [Paper](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1009886)
 
 &nbsp;
-**Semiconducting carbon nanotubes alter intrinsic excitability and network properties of rat hippocampal neurons in-vitro.**
+**Semiconducting carbon nanotubes alter intrinsic excitability and network properties of rat hippocampal neurons in-vitro.**\
 Abhinoy K, Shagnik C, Sonali V, Shinjini G, *Raees M*, Sujit K.Sikdar (2022).  [Biorxiv](https://www.biorxiv.org/content/10.1101/2023.03.29.533880v1)
