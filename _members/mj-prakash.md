@@ -2,7 +2,7 @@
 name: Muthu Jeyanthi Prakash
 image: images/muthu.jpg
 role: phd
-affiliation: Universitätsklinikum Tübingen
+affiliation: International Max-Planck Research School - MMFD
 links:
   email: muthu-jeyanthi.prakash@uni-tuebingen.de
   github: https://github.com/Muthu-Jeyanthi
