@@ -15,26 +15,28 @@ google-scholar: https://scholar.google.com/citations?user=VOaQuLUAAAAJ
 
 
 # Profile
+Meghal Dani is a Ph.D. candidate in Computer Science at the International Max Planck Research School for Intelligent Systems (IMPRS-IS), supported by the Else Kröner-Fresenius Foundation (EKFS) through the ClinBrAIn doctoral fellowship. She is affiliated with the Explainable Machine Learning Lab [EML](https://www.eml-unitue.de/) and is jointly supervised by [Prof. Dr. Zeynep Akata](https://is.mpg.de/person/zakata) and [Dr. rer. nat. Stefanie Liebe](https://www.medizin.uni-tuebingen.de/de/das-klinikum/mitarbeiter/profil/2335). Previously, she also worked with the MIDAS Lab under[Prof. Dr. Med. Sergios Gatidis](https://med.stanford.edu/profiles/sergios-gatidis), now at Stanford University.
 
-Meghal Dani is a Ph.D. candidate under the Else Kröner-Fresenius Foundation (EKFS) grant at the International Max-Planck Research School for Intelligent Systems (IMPRS-IS). She is associated with [EML](https://www.eml-unitue.de/) and is supervised by [Prof. Dr. Zeynep Akata](https://is.mpg.de/person/zakata) and [Dr. rer. nat. Stefanie Liebe](https://www.medizin.uni-tuebingen.de/de/das-klinikum/mitarbeiter/profil/2335) respectively (*Earlier also worked at [MIDAS lab](http://midaslab.org/index.html) with [Prof. Dr. Med. Sergios Gatidis](https://med.stanford.edu/profiles/sergios-gatidis), who moved to Stanford in 2023).
+Prior to her Ph.D., Meghal completed her M.Tech in Computational Biology at IIIT Delhi (2017–2019), where she focused on Deep Learning, AI for Science, and earned her bachelor's degree in Computer Science Engineering from BIT Mesra (2012–2016). She worked as a full-time researcher (2019-2021) at Tata Research and Innovation Labs in the area of Deep Learning and AI under the supervision of Senior Scientist Dr. Lovekesh Vig and [Ramya Hebbalaguppe](https://rhebbalaguppe.github.io/). She particularly contributed to innovations in Medical image analysis and 3D Computer Vision, which led to multiple publications and patents.
 
-She received her bachelor's degree in Computer Science Engineering from BIT Mesra in 2016 and focused on AI in healthcare during her master's at IIIT Delhi, majoring in Computational Biology (2017-2019). Since then, she has been interested in developing modern deep learning systems in healthcare that have the potential to make diagnostic decisions of similar quality to attending doctors. She worked as a full-time researcher (2019-2021) at Tata Research and Innovation Labs in the area of Deep Learning and AI under the supervision of Senior Scientist Dr. Lovekesh Vig and [Ramya Hebbalaguppe](https://rhebbalaguppe.github.io/).
-
-Her primary research interests are addressing issues of transparency, robustness, interpretability, and reliability by combining vision and language models.
+Her doctoral research focuses on building safe, interpretable, and robust multimodal AI systems for healthcare applications. She develops methods that integrate clinical text, EEG signals, medical imaging, and video data for improved diagnostic support.
 
 # Publications
 
 **SemioLLM: Assessing Large Language Models for Semiological Analysis in Epilepsy Research**\
 *Meghal Dani*, Muthu Jeyanthi Prakash, Zeynep Akata, and Stefanie Liebe\
 ICML AI4Science Workshop\
-[Paper](https://arxiv.org/pdf/2407.03004) | Code coming up soon
+[Paper](https://arxiv.org/pdf/2407.03004)\
+Code coming up soon
 
 &nbsp;
 
 **DeViL: Decoding Vision features into Language**\
 *Meghal Dani*, Isabel Rio-Torto, Stephan Alaniz, and Zeynep Akata\
 German Conference on Pattern Recognition, 2023 (**Oral**)\
-[Paper](https://www.dagm-gcpr.de/fileadmin/dagm-gcpr/pictures/2023_Heidelberg/Paper_FastTrack/094.pdf) | [Code](https://github.com/ExplainableML/DeViL) | This was also presented at the ICCV 2023 Workshop on Closing the Loop Between Vision and Language (CLVL).
+[Paper](https://www.dagm-gcpr.de/fileadmin/dagm-gcpr/pictures/2023_Heidelberg/Paper_FastTrack/094.pdf)\
+[Code](https://github.com/ExplainableML/DeViL)\
+This was also presented at the ICCV 2023 Workshop on Closing the Loop Between Vision and Language (CLVL).
 
 &nbsp;
 
@@ -77,8 +79,9 @@ For up-to-date information and patents, please also check: [Google Scholar](http
 
 # Community Service
 
-## Reviewing
+## Reviewer
 
+- CVPR 2025
 - ECCV 2024
 - MICCAI 2024
 - ICML 2024
@@ -87,5 +90,6 @@ For up-to-date information and patents, please also check: [Google Scholar](http
 
 ## Other
 
+- Soft Skills Seminar Series (S4) Workshop Organizer at IMPRS-IS
 - Ph.D. Representative in Search Committee for Tenure-Track Professor of Machine Learning and Intelligent Systems, University of Tübingen
 - IMPRS-IS Interview Symposium Helper involved in recording and moderating candidate talks
