@@ -10,6 +10,13 @@
   </div>
 </div>
 
+
+<div style="background-color: #e0f7fa; color: #0d47a1; padding: 15px 25px; text-align: center; border-radius: 8px; margin: 20px auto; font-size: 1.1em; font-weight: 500; max-width: 900px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
+  📢 <strong> Check out our recent updates!</strong>
+<a href="/news" style="margin-left: 15px; padding: 8px 15px; background-color: #0d47a1; color: white; border-radius: 5px; text-decoration: none;">Go to News</a>
+</div>
+
+
 {% include section.html %}
 
 ## Highlights
@@ -85,13 +92,9 @@ Access a comprehensive list of our scholarly publications that reflect our ongoi
   text=text
 %}
 
-<!-- News Banner -->
-<div style="background-color: #fce8e6; color: #b71c1c; padding: 15px 25px; text-align: center; border-radius: 8px; margin: 20px auto; font-size: 1.1em; font-weight: 500; max-width: 900px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
-  📢 <strong> Check out our recent updates!</strong>
-<a href="/news" style="margin-left: 15px; padding: 8px 15px; background-color: #b71c1c; color: white; border-radius: 5px; text-decoration: none;">Go to News</a>
-</div>
 
---> 
+
+
 {% include section.html %}
 ## Funding Agencies
 
