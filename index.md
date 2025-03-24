@@ -110,7 +110,7 @@ Access a comprehensive list of our scholarly publications that reflect our ongoi
     </a>
   </div>
   <div style="flex: 1 1 calc(33.333% - 40px); text-align: center; box-sizing: border-box;">
-    <a href="https://example.com/logo3" style="display: block; text-decoration: none; color: inherit;">
+    <a href="https://www.brainloops.de/" style="display: block; text-decoration: none; color: inherit;">
       <img src="images/LOOPS .png" alt="LOOPS Logo" style="width: 100%; max-width: 200px; height: auto; object-fit: contain; border-radius: 0;">
     </a>
   </div>
