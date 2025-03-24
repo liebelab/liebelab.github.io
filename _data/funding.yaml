@@ -8,7 +8,7 @@
 - name: 
   image: images/cherish.jpg
   affiliation: 
-  website:
+  website: https://cherish-network.eu/
   
 - name: 
   image: images/LOOPS .png
