@@ -7,7 +7,7 @@ nav:
 
 # News
 ## 🚀 Latest Highlights
-
+- 🎤 March 2025 — Muthu presented her research as a Young Investigator oral presentation in the Investigating memory using human single-neuron recordings symposium at the 16th NWG Meeting in Göttingen, Germany.
 - 🧠 March 2025 — Our paper is now published in **Nature Neuroscience**! [Read the paper](https://www.nature.com/articles/s41593-025-01893-7)  
 - 🌄 March 2025 — Muthu and Raees represented the lab at the IMPRS MMFD Retreat  — sharing ideas and forging new collaborations!
 - 🌍 January 2025 — We received **African-German Scientific Exchange grant** in the Field of Neurosciences grant from [DFG](https://www.dfg.de/de/ueber-uns/internationale-zusammenarbeit/internationales-handeln/afrika-nahost/initiative-i2i#:~:text=Supporting%20the%20diagnosis%20of%20epilepsy%20using%20artificial%20intelligence). Proud to advance AI for global epilepsy care.
