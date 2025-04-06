@@ -2,10 +2,11 @@
 ---
 
 
-<div style="background-color: #e0f7fa; color: #0d47a1; padding: 15px 25px; text-align: center; border-radius: 8px; margin: 5px auto; font-size: 1.1em; font-weight: 500; max-width: 900px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
-  📢 <strong> Check out our recent updates!</strong>
-  <a href="/news" style="margin-left: 15px; padding: 8px 15px; background-color: #0d47a1; color: white; border-radius: 5px; text-decoration: none;">Go to News</a>
+<div style="background-color: transparent; color: #0d47a1; padding: 5px 10px; text-align: center; border-radius: 8px; margin: 2px auto; font-size: 1.1em; font-weight: 500; max-width: 900px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
+  📢 <strong>Check out our recent updates!</strong>
+  <a href="/news" style="margin-left: 5px; padding: 4px 8px; background-color: #0d47a1; color: white; border-radius: 5px; text-decoration: none;">Go to News</a>
 </div>
+
 
 <div style="display: flex; align-items: center; justify-content: space-between; min-height: 100vh; padding: 10px; box-sizing: border-box;">
   <div style="flex: 1; padding-right: 40px;">
