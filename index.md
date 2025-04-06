@@ -1,5 +1,12 @@
 ---
 ---
+
+
+<div style="background-color: #e0f7fa; color: #0d47a1; padding: 15px 25px; text-align: center; border-radius: 8px; margin: 5px auto; font-size: 1.1em; font-weight: 500; max-width: 900px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
+  📢 <strong> Check out our recent updates!</strong>
+  <a href="/news" style="margin-left: 15px; padding: 8px 15px; background-color: #0d47a1; color: white; border-radius: 5px; text-decoration: none;">Go to News</a>
+</div>
+
 <div style="display: flex; align-items: center; justify-content: space-between; min-height: 100vh; padding: 10px; box-sizing: border-box;">
   <div style="flex: 1; padding-right: 40px;">
     <h3 style="font-size: 1.4em;">Dr. Stefanie Liebe - Cognitive, clinical and computational neuroscience research </h3>
@@ -8,11 +15,6 @@
   <div style="flex: 1; display: flex; justify-content: center; padding-left: 40px;">
     <img src="images/logo_text.png" alt="Intro Picture" style="max-width: 150%; height: auto; border-radius: 8px; box-shadow: 0 0px 0px rgba(0,0,0,0.1);">
   </div>
-</div>
-
-<div style="background-color: #e0f7fa; color: #0d47a1; padding: 15px 25px; text-align: center; border-radius: 8px; margin: 5px auto; font-size: 1.1em; font-weight: 500; max-width: 900px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
-  📢 <strong> Check out our recent updates!</strong>
-  <a href="/news" style="margin-left: 15px; padding: 8px 15px; background-color: #0d47a1; color: white; border-radius: 5px; text-decoration: none;">Go to News</a>
 </div>
 
 
