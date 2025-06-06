@@ -7,7 +7,7 @@ nav:
 
 # News
 ## 🚀 Latest Highlights
-- 📰 June 2025 — Great article featuring our collaborators - Florian Mormann and his team from Bonn — exploring how memory emerges from neuronal activity! If you look closely, you can detect Stefanie in one picture🙂 [LinkedIn post](https://www.linkedin.com/posts/universitätsklinikum-bonn-epileptologie_how-does-memory-emerge-one-scientist-is-activity-7336282290160877569-hf8l?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAABucklMBT2axOUrP-rnbmXi33Izq-fgrYBw) | [ZEIT article (in German)](https://www.zeit.de/wissen/2025-05/hirnforschung-erinnerung-konzeptzellen-neuronen-epilepsie)
+- 📰 June 2025 — Great article featuring our collaborators - Florian Mormann and his team from Bonn — exploring how memory emerges from neuronal activity! If you look closely, you can detect Stefanie in one picture🙂 [LinkedIn post](https://www.linkedin.com/posts/universitätsklinikum-bonn-epileptologie_how-does-memory-emerge-one-scientist-is-activity-7336282290160877569-hf8l?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAABucklMBT2axOUrP-rnbmXi33Izq-fgrYBw) • [ZEIT article (in German)](https://www.zeit.de/wissen/2025-05/hirnforschung-erinnerung-konzeptzellen-neuronen-epilepsie)
 - 🎤 March 2025 — Muthu presented her research as a Young Investigator oral presentation in the Investigating memory using human single-neuron recordings symposium at the 16th NWG Meeting in Göttingen, Germany.
 - 🧠 March 2025 — Our paper is now published in **Nature Neuroscience**! [Read the paper](https://www.nature.com/articles/s41593-025-01893-7)  
 - 🌄 March 2025 — Muthu and Raees represented the lab at the IMPRS MMFD Retreat  — sharing ideas and forging new collaborations!
