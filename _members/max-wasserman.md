@@ -4,8 +4,7 @@ name: Max Wassermann
 role: phd
 affiliation: Universitätsklinikum Tübingen
 
-order: 4
-link: max-wassermann
+
 
 email: meghal.dani (at) uni-tuebingen.com 
 linkedin: https://www.linkedin.com/in/meghal-dani-84825525/
