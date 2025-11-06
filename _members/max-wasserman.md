@@ -1,5 +1,5 @@
 ---
-image: /images/MDani.jpg
+image: /images/mwassermann.jpeg
 name: Max Wassermann
 role: phd
 affiliation: Universitätsklinikum Tübingen
