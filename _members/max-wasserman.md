@@ -6,10 +6,8 @@ affiliation: Universitätsklinikum Tübingen
 
 
 
-email: meghal.dani (at) uni-tuebingen.com 
-linkedin: https://www.linkedin.com/in/meghal-dani-84825525/
-github: https://github.com/meghalD
-google-scholar: https://scholar.google.com/citations?user=VOaQuLUAAAAJ
+email: Max.Wassermann (at) med.uni-tuebingen.com 
+
 ---
 
 
