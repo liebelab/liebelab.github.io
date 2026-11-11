@@ -1,0 +1,510 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Human Electrophysiology and AI · Stefanie Liebe</title>
+  <meta name="description" content="Human Electrophysiology and AI: research group of Dr. Stefanie Liebe at Hertie AI and the University of Tübingen.">
+  <meta property="og:title" content="Human Electrophysiology and AI · Stefanie Liebe">
+  <meta property="og:description" content="How neural activity gives rise to human cognition and behaviour, and how its disruption leads to neurological disease such as epilepsy.">
+  <meta property="og:image" content="https://liebelab.github.io/images/brain.png">
+  <link rel="icon" href="images/brain.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script>
+    // Theme: follows the system unless the visitor picks one with the toggle
+    (function () {
+      var root = document.documentElement;
+      try { var saved = localStorage.getItem('theme'); if (saved) root.dataset.theme = saved; } catch (e) {}
+      document.addEventListener('click', function (e) {
+        if (!e.target.closest('.theme-toggle')) return;
+        var dark = root.dataset.theme ? root.dataset.theme === 'dark'
+                                      : matchMedia('(prefers-color-scheme: dark)').matches;
+        root.dataset.theme = dark ? 'light' : 'dark';
+        try { localStorage.setItem('theme', root.dataset.theme); } catch (e) {}
+      });
+    })();
+  </script>
+</head>
+<body>
+
+<header class="topbar">
+  <div class="wrap topbar-inner">
+    <a class="brand" href="#top">Human Electrophysiology and AI</a>
+    <nav>
+      <a href="#news">News</a>
+      <a href="#research">Research</a>
+      <a href="#publications">Publications</a>
+      <a href="#team">Team</a>
+      <a href="#positions">Join us</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <button class="theme-toggle" type="button" aria-label="Toggle dark mode" title="Toggle dark mode">
+      <svg width="18" height="18" viewBox="0 0 24 24" aria-hidden="true">
+        <circle cx="12" cy="12" r="8.5" fill="none" stroke="currentColor" stroke-width="2"/>
+        <path d="M12 3.5a8.5 8.5 0 0 1 0 17z" fill="currentColor"/>
+      </svg>
+    </button>
+  </div>
+</header>
+
+<main class="wrap" id="top">
+
+  <!-- ============ INTRO ============ -->
+  <section class="hero">
+    <div class="hero-text">
+      <h1>Human Electrophysiology and AI</h1>
+      <p class="tagline">Research group of Dr. Stefanie Liebe · Tübingen</p>
+      <p>
+        We investigate how neural activity gives rise to human cognition and behaviour, and how its disruption
+        leads to neurological disease such as epilepsy. Our focus is on the neural mechanisms of memory and
+        high-level perception. We use machine learning, including recurrent neural networks and large language
+        models, to analyse rich, high-dimensional recordings of neural activity and behaviour from epilepsy patients,
+        including invasive recordings.
+      </p>
+      <p>
+        The group connects the <a href="https://www.hertie.ai/independent-research-groups/research-groups/about/human-electrophysiology-and-ai">Hertie Institute for AI in Brain Health (Hertie AI)</a>
+        and the Hertie Institute for Clinical Brain Research (HIH). It is based at the University Hospital Tübingen
+        (Neurology &amp; Epileptology) and the Cluster of Excellence
+        <a href="https://uni-tuebingen.de/forschung/forschungsschwerpunkte/exzellenzcluster-maschinelles-lernen/home/">Machine Learning for Science</a>.
+      </p>
+      <p class="links">
+        <a href="mailto:stefanie.liebe@uni-tuebingen.de">Email</a>
+        <a href="https://www.hertie.ai/independent-research-groups/research-groups/about/human-electrophysiology-and-ai">Hertie AI page</a>
+        <a href="https://scholar.google.com/citations?user=38Sq-ZYAAAAJ&amp;hl=en">Google Scholar</a>
+        <a href="https://orcid.org/0000-0003-2873-2943">ORCID</a>
+        <a href="https://x.com/steliebe">X / Twitter</a>
+      </p>
+    </div>
+    <img class="hero-img" src="images/brain.png" alt="Group logo: a brain drawn as a network of nodes">
+  </section>
+
+  <!-- ============ HIRING CALLOUT ============ -->
+  <a class="hiring" href="#positions">
+    <strong>We’re hiring.</strong>
+    <span>We have open positions for PhD students, postdocs and student researchers in human electrophysiology and machine learning.</span>
+    <span class="hiring-cta">Open positions →</span>
+  </a>
+
+  <!-- ============ NEWS ============ -->
+  <section id="news">
+    <h2>News</h2>
+    <!-- Tag colours: t-blue (conference/workshop/poster), t-violet (talk/teaching), t-green (paper),
+         t-orange (team), t-amber (grant/challenge), t-gray (press/event/service) -->
+    <ul class="news">
+      <!-- TODO: add the event name and a link for the Berlin talk -->
+      <li><time>Oct 2026</time><span><em class="tag t-violet">Talk</em>Stefanie gave a talk in Berlin.</span></li>
+      <li><time>Oct 2026</time><span><em class="tag t-blue">Conference</em>Florentin attended <a href="https://colmweb.org/">COLM 2026</a>, the Conference on Language Modeling, in San Francisco (6–9 Oct).</span></li>
+      <li><time>Sep 2026</time><span><em class="tag t-green">Paper</em>Meghal presented our paper on <a href="https://doi.org/10.1007/978-3-032-38239-9_43">parameter-efficient self-supervised adaptation of EEG foundation models</a> at <a href="https://conferences.miccai.org/2026/en/">MICCAI 2026</a> in Strasbourg (27 Sep – 1 Oct).</span></li>
+      <li><time>Sep 2026</time><span><em class="tag t-blue">Workshop</em>Meghal, Muthu and Stefanie took part in <a href="https://www.kietzmannlab.uni-osnabrueck.de/neat2026/">NEAT 2026</a>, the Neuro-AI Talks workshop, in Osnabrück (14–15 Sep).</span></li>
+      <li><time>Sep 2026</time><span><em class="tag t-blue">Conference</em>Meghal attended the Nature conference <a href="https://parcc.inserm.fr/redefining-healthcare-in-the-age-of-ai-a-nature-conference-in-paris/">“Redefining Healthcare in the Age of AI”</a> at the Sorbonne in Paris (8–10 Sep).</span></li>
+      <li><time>Jul 2026</time><span><em class="tag t-blue">Conference</em>Raees attended the FENS Forum in Barcelona.</span></li>
+      <li><time>Jun 2026</time><span><em class="tag t-gray">Event</em>Raees attended the <a href="https://cherish-network.eu/events-cherish-cochlear-implant-spatial-hearing-eu-msca/">CherISH DC Retreat</a> in Vienna, hosted by the Acoustic Research Institute of the Austrian Academy of Sciences (18–19 Jun).</span></li>
+      <li><time>Jan 2026</time><span><em class="tag t-orange">Visit</em>Gianpaolo Palo and Juan Daniel Galeano Otálvaro, doctoral candidates in the <a href="https://cherish-network.eu/network-cherish-cochlear-implant-spatial-hearing-eu-msca/doctoral-candidate-phd-msca-cochlear-implant-spatial-hearing/">CherISH network</a>, visited the lab for their CherISH secondment.</span></li>
+    </ul>
+    <details class="more">
+      <summary>Older news</summary>
+      <ul class="news">
+        <li><time>Oct 2025</time><span><em class="tag t-orange">Team</em>Two new PhD students joined the lab: Max Wassermann will work on intracranial single-unit and LFP recordings as part of the CRC <a href="https://uni-tuebingen.de/en/research/core-research/collaborative-research-centers/crc-1233/">“Robust Vision”</a>, and Jiaxin Wang will study human decision-making and memory with computational modelling, in collaboration with <a href="https://www.kyb.tuebingen.mpg.de/computational-neuroscience">Peter Dayan</a> at the MPI for Biological Cybernetics.</span></li>
+        <li><time>Oct 2025</time><span><em class="tag t-blue">Poster</em>Meghal, Muthu and Raees presented posters at the <a href="https://meg.medizin.uni-tuebingen.de/sns_2025/index.php">Systems Neuroscience Symposium</a> in Tübingen.</span></li>
+        <li><time>Oct 2025</time><span><em class="tag t-gray">Event</em>Joint women’s retreat of the CRC “Robust Vision” and the SPP <a href="https://www.brainloops.de/spp2411">Brain Loops</a> in Stuttgart, organised by Stefanie with scientific coordinators Ulf Lüders and <a href="https://de.linkedin.com/in/fauve-katharina-de-arnal-2b1493231">Fauve de Arnal</a>.</span></li>
+        <li><time>Sep 2025</time><span><em class="tag t-blue">Poster</em>Meghal, Muthu and Raees presented posters at the <a href="https://bernstein-network.de/en/bernstein-conference/">Bernstein Conference</a> in Frankfurt.</span></li>
+        <li><time>Sep 2025</time><span><em class="tag t-gray">Service</em>Stefanie is Guest Editor of the Nature collection <a href="https://www.nature.com/collections/gjcdjfeafb/about-the-editors">Cortical–subcortical brain loops</a> (open for submissions until 19 Feb 2026).</span></li>
+        <li><time>Jun 2025</time><span><em class="tag t-green">Preprint</em>New preprint: theta–gamma–spike coupling coordinates sequential memory in the human MTL. <a href="https://www.biorxiv.org/content/10.1101/2025.06.24.661371v1">bioRxiv</a></span></li>
+        <li><time>Jun 2025</time><span><em class="tag t-gray">Press</em>Press coverage of our collaborators Florian Mormann and team (Bonn) on how memory emerges from neuronal activity. <a href="https://www.zeit.de/wissen/2025-05/hirnforschung-erinnerung-konzeptzellen-neuronen-epilepsie">ZEIT article (German)</a></span></li>
+        <li><time>Mar 2025</time><span><em class="tag t-violet">Talk</em>Muthu gave a Young Investigator talk in the symposium “Investigating memory using human single-neuron recordings” at the 16th NWG Meeting in Göttingen.</span></li>
+        <li><time>Mar 2025</time><span><em class="tag t-green">Paper</em>Our paper is out in <strong>Nature Neuroscience</strong>. <a href="https://www.nature.com/articles/s41593-025-01893-7">Paper</a></span></li>
+        <li><time>Mar 2025</time><span><em class="tag t-gray">Event</em>Muthu and Raees represented the lab at the IMPRS-MMFD retreat.</span></li>
+        <li><time>Jan 2025</time><span><em class="tag t-amber">Grant</em>We received a <a href="https://www.dfg.de/de/ueber-uns/internationale-zusammenarbeit/internationales-handeln/afrika-nahost/initiative-i2i">DFG African-German Scientific Exchange grant</a> in neuroscience, on supporting epilepsy diagnosis with AI.</span></li>
+        <li><time>Dec 2024</time><span><em class="tag t-amber">Grant</em>The Collaborative Research Center <a href="https://uni-tuebingen.de/forschung/forschungsschwerpunkte/sonderforschungsbereiche/sfb-1233.html">CRC 1233</a> “Robustness of Vision – Principles of Inference and Neural Mechanisms” was awarded.</span></li>
+        <li><time>Nov 2024</time><span><em class="tag t-blue">Workshop</em>Raees and Stefanie contributed to the CherISH workshop in Tübingen.</span></li>
+        <li><time>Oct 2024</time><span><em class="tag t-orange">Team</em>Raees joined the lab.</span></li>
+        <li><time>Sep 2024</time><span><em class="tag t-blue">Conference</em>Muthu presented her work at the Bernstein Conference.</span></li>
+        <li><time>Sep 2024</time><span><em class="tag t-violet">Teaching</em>Meghal and Stefanie ran an interactive tutorial on LLMs in healthcare at the IMPRS-IS Bootcamp.</span></li>
+        <li><time>Jul 2024</time><span><em class="tag t-green">Paper</em>Meghal presented SemioLLM at the ICML 2024 AI for Science workshop.</span></li>
+        <li><time>Feb 2024</time><span><em class="tag t-amber">Challenge</em>With the <a href="https://www.mackelab.org/">Mackelab</a>, five of our submissions ranked in the top 10 of the <a href="https://epilepsybenchmarks.com/challenge/">Seizure Detection Challenge</a> organised by EPFL and partners.</span></li>
+        <li><time>Jan 2024</time><span><em class="tag t-violet">Talk</em>Stefanie gave a guest lecture at AIMS Africa.</span></li>
+      </ul>
+    </details>
+  </section>
+
+  <!-- ============ RESEARCH ============ -->
+  <section id="research">
+    <h2>Research</h2>
+
+    <p>
+      Our lab studies how neural circuits in the human brain support cognition and behavior, and how they break down in
+      neurological disease. We work with patients with epilepsy who have intracranial electrodes implanted for clinical
+      diagnosis. This gives us rare access to the activity of single neurons and local brain networks in the awake human
+      brain. We use these recordings to address both cognitive and clinical questions. Embedded in clinical care, our
+      work is highly translational: insights from basic neuroscience feed directly back into the diagnosis and treatment
+      of patients with epilepsy.
+    </p>
+    <p>
+      <strong>From neurons to cognition.</strong>
+      We look at how single neurons in the medial temporal lobe, amygdala, insula and frontal cortex represent
+      information during perception, memory, decision-making and emotion. To get at the underlying computations, we
+      train artificial neural networks on the same tasks our participants perform and compare the networks’ internal
+      dynamics with the brain recordings.
+    </p>
+    <p>
+      <strong>From cells to clinical signals.</strong>
+      We ask how the firing of individual neurons relates to the population signals that clinicians use to diagnose
+      epilepsy, such as LFP and stereo-EEG. We are especially interested in this relationship before and during
+      seizures. The goal is to find cellular signatures that give seizure prediction and biomarker development a
+      mechanistic basis.
+    </p>
+    <p>
+      <strong>AI for brain function and disease.</strong>
+      AI and computational modeling run through all of our work. We use them as tools for discovery, extracting the
+      principles that underlie human brain function from neural and behavioral data. We also use them clinically,
+      combining multimodal data such as electrophysiology, imaging, clinical records and video to improve how epilepsy is
+      diagnosed, classified and treated. Together, these approaches link cellular mechanisms to brain dynamics and
+      clinical practice, with the aim of building mechanistic models of human brain function and dysfunction.
+    </p>
+  </section>
+
+  <!-- ============ PUBLICATIONS ============ -->
+  <section id="publications">
+    <h2>Publications</h2>
+    <p class="muted">For the full list, see <a href="https://scholar.google.com/citations?user=38Sq-ZYAAAAJ&amp;hl=en">Google Scholar</a>.</p>
+
+    <ol class="pubs">
+      <li>
+        <a class="pub-title" href="https://doi.org/10.1007/978-3-032-38239-9_43">Parameter-efficient self-supervised adaptation for EEG-FM under fixed computational budgets</a>
+        <div class="authors"><b>Meghal Dani</b>, <b>Stefanie Liebe</b></div>
+        <div class="venue"><span class="venue-short">MICCAI 2026</span> <em>Medical Image Computing and Computer Assisted Intervention</em> · conference paper</div>
+      </li>
+      <li>
+        <a class="pub-title" href="https://doi.org/10.1038/s41597-026-07955-0">Human neuron activity during an 83-minute movie from 2,286 neurons and 29 patients</a>
+        <div class="authors">Alana Darcher, Franziska Gerken, Johannes Niediek, Marcel S. Kehl, Thomas P. Reber, <b>Stefanie Liebe</b>, Laura Nett, Attila Racz, Lukas Kunz, Bernhard Staresina, Rachel Rapp, Pedro J. Gonçalves, Ismail Elezi, Valeri Borger, Rainer Surges, Laura Leal-Taixé, Jakob H. Macke, Florian Mormann</div>
+        <div class="venue"><em>Scientific Data</em>, 2026</div>
+      </li>
+      <li>
+        <a class="pub-title" href="https://doi.org/10.7554/eLife.106758">Decoding movie content from neuronal population activity in the human medial temporal lobe</a>
+        <div class="authors">Franziska Gerken, Alana Darcher, Pedro J. Gonçalves, Rachel Rapp, Ismail Elezi, Johannes Niediek, Marcel S. Kehl, Thomas P. Reber, <b>Stefanie Liebe</b>, Jakob H. Macke, Florian Mormann, Laura Leal-Taixé</div>
+        <div class="venue"><em>eLife</em>, 2025</div>
+      </li>
+      <li>
+        <a class="pub-title" href="https://doi.org/10.1038/s41593-025-01893-7">Phase of firing does not reflect temporal order in sequence memory of humans and recurrent neural networks</a>
+        <div class="authors"><b>Stefanie Liebe</b>, Johannes Niediek, Matthijs Pals, Thomas P. Reber, Jennifer Faber, Jan Boström, Christian E. Elger, Jakob H. Macke, Florian Mormann</div>
+        <div class="venue"><em>Nature Neuroscience</em>, 2025</div>
+      </li>
+      <li>
+        <a class="pub-title" href="https://arxiv.org/abs/2407.03004">SemioLLM: Assessing large language models for semiological analysis in epilepsy research</a>
+        <div class="authors"><b>Meghal Dani</b>, <b>Muthu Jeyanthi Prakash</b>, Zeynep Akata, <b>Stefanie Liebe</b></div>
+        <div class="venue"><span class="venue-short">ICML 2024</span> <em>International Conference on Machine Learning, AI for Science Workshop</em> · workshop paper</div>
+      </li>
+    </ol>
+
+    <details class="more">
+      <summary>Earlier publications</summary>
+      <ol class="pubs">
+        <li>
+          <a class="pub-title" href="https://doi.org/10.1038/nn.3038">Theta coupling between V4 and prefrontal cortex predicts visual short-term memory performance</a>
+          <div class="authors"><b>Stefanie Liebe</b>, Gregor M. Hoerzer, Nikos K. Logothetis, Gregor Rainer</div>
+          <div class="venue"><em>Nature Neuroscience</em>, 2012</div>
+        </li>
+        <li>
+          <a class="pub-title" href="https://doi.org/10.1523/JNEUROSCI.1791-10.2011">Dissociable effects of natural image structure and color on LFP and spiking activity in the lateral prefrontal cortex and extrastriate visual area V4</a>
+          <div class="authors"><b>Stefanie Liebe</b>, Nikos K. Logothetis, Gregor Rainer</div>
+          <div class="venue"><em>Journal of Neuroscience</em>, 2011</div>
+        </li>
+        <li>
+          <a class="pub-title" href="https://doi.org/10.3389/fnbeh.2011.00073">Cholinergic control of visual categorization in macaques</a>
+          <div class="authors">Nikolaos C. Aggelopoulos, <b>Stefanie Liebe</b>, Nikos K. Logothetis, Gregor Rainer</div>
+          <div class="venue"><em>Frontiers in Behavioral Neuroscience</em>, 2011</div>
+        </li>
+        <li>
+          <a class="pub-title" href="https://doi.org/10.3389/fncom.2010.00014">Directed coupling in local field potentials of macaque V4 during visual short-term memory revealed by multivariate autoregressive models</a>
+          <div class="authors">Gregor M. Hoerzer, <b>Stefanie Liebe</b>, Alois Schloegl, Nikos K. Logothetis, Gregor Rainer</div>
+          <div class="venue"><em>Frontiers in Computational Neuroscience</em>, 2010</div>
+        </li>
+        <li>
+          <a class="pub-title" href="https://doi.org/10.1167/9.5.14">Color and shape interactions in the recognition of natural scenes by human and monkey observers</a>
+          <div class="authors"><b>Stefanie Liebe</b>, Elvira Fischer, Nikos K. Logothetis, Gregor Rainer</div>
+          <div class="venue"><em>Journal of Vision</em>, 2009</div>
+        </li>
+      </ol>
+    </details>
+  </section>
+
+  <!-- ============ TEAM ============ -->
+  <section id="team">
+    <h2>Team</h2>
+
+    <div class="person pi" id="liebe">
+      <img src="images/people/liebe.jpg" alt="Stefanie Liebe">
+      <div>
+        <h3>Dr. Stefanie Liebe</h3>
+        <p class="role">Principal Investigator · Universitätsklinikum Tübingen</p>
+        <p>
+          Clinician scientist in the Department of Neurology and Epileptology at the University Hospital Tübingen and the
+          Cluster of Excellence “Machine Learning for Science”. Trained in psychology, medicine and neuroscience.
+        </p>
+        <p class="links">
+          <a href="mailto:stefanie.liebe@uni-tuebingen.de">Email</a>
+          <a href="https://scholar.google.com/citations?user=38Sq-ZYAAAAJ&amp;hl=en">Scholar</a>
+          <a href="https://orcid.org/0000-0003-2873-2943">ORCID</a>
+          <a href="https://x.com/steliebe">X</a>
+        </p>
+        <details>
+          <summary>Full bio</summary>
+          <p>
+            As a psychologist, Stefanie uses cognitive concepts, experimental paradigms and procedures to study cognitive
+            function at the behavioural and neuropsychological level. As a neuroscientist, she studies the neural basis of
+            vision and memory. She applies classical analysis tools and modern machine learning to invasive recordings
+            from epilepsy patients. As a clinician, she uses AI to support epilepsy diagnosis. Her work is highly
+            collaborative, bringing together neurology, neurosurgery and neuroradiology with experimental and
+            computational neuroscience.
+          </p>
+          <p>
+            She studied psychology at TU Dresden and earned her PhD in Neuroscience at the Max Planck International
+            Research School for Neural and Behavioral Sciences in Tübingen. She completed medical training in Tübingen and
+            Bonn. In Bonn she began her neurological residency in the Department of Epileptology and worked as a research
+            associate in the lab of Prof. Florian Mormann. In 2020 she moved to Tübingen, where she continued her
+            residency in Epileptology. She is now a Clinician Scientist in the MINT-CS program and an associated
+            scientist of the IMPRS for Intelligent Systems.
+          </p>
+          <p>She is a PI on projects funded by:</p>
+          <ul>
+            <li><a href="https://www.ekfs.de/en/scientific-funding/currently-funded-projects/clinbrain-artificial-intelligence-clinical-brain">Else Kröner Graduate School “Artificial Intelligence for Clinical Brain Science” (2022)</a></li>
+            <li><a href="https://www.brainloops.de/spp2411">DFG Priority Program “Sensing LOOPS” (2023)</a></li>
+            <li><a href="https://cherish-network.eu/">MSCA Doctoral Network “CherISH”: cochlear implants for spatial hearing (2024)</a></li>
+          </ul>
+        </details>
+      </div>
+    </div>
+
+    <h3 class="group-label">PhD students</h3>
+
+    <div class="person">
+      <img src="images/people/dani.jpg" alt="Meghal Dani">
+      <div>
+        <h3>Meghal Dani</h3>
+        <p class="role">PhD student · IMPRS-IS · co-supervised with Zeynep Akata</p>
+        <p class="links">
+          <a href="mailto:meghal.dani@uni-tuebingen.de">Email</a>
+          <a href="https://scholar.google.com/citations?user=VOaQuLUAAAAJ">Scholar</a>
+          <a href="https://github.com/meghalD">GitHub</a>
+          <a href="https://www.linkedin.com/in/meghal-dani-84825525/">LinkedIn</a>
+        </p>
+        <details>
+          <summary>Full bio</summary>
+          <p>
+            Meghal is a PhD candidate in Computer Science at the International Max Planck Research School for Intelligent
+            Systems (IMPRS-IS). She is supported by the Else Kröner-Fresenius Foundation through the ClinBrAIn doctoral
+            fellowship. She is affiliated with the <a href="https://www.eml-unitue.de/">Explainable Machine Learning Lab</a>
+            and jointly supervised by Prof. Zeynep Akata and Dr. Stefanie Liebe. She previously worked with the MIDAS Lab
+            under Prof. Sergios Gatidis, now at Stanford University.
+          </p>
+          <p>
+            She holds an M.Tech in Computational Biology from IIIT Delhi and a B.E. in Computer Science from BIT Mesra.
+            From 2019 to 2021 she was a full-time researcher at Tata Research and Innovation Labs, working on medical image
+            analysis and 3D computer vision. That work led to multiple publications and patents.
+          </p>
+          <p>Reviewer for CVPR 2025, ECCV 2024, MICCAI 2024, ICML 2024, ACCV 2024 and ICCV 2023.</p>
+        </details>
+      </div>
+    </div>
+
+    <div class="person">
+      <img src="images/people/prakash.jpg" alt="Muthu Jeyanthi Prakash">
+      <div>
+        <h3>Muthu Jeyanthi Prakash</h3>
+        <p class="role">PhD student · IMPRS-MMFD</p>
+        <p class="links">
+          <a href="mailto:muthu-jeyanthi.prakash@uni-tuebingen.de">Email</a>
+          <a href="https://github.com/Muthu-Jeyanthi">GitHub</a>
+        </p>
+        <details>
+          <summary>Full bio</summary>
+          <p>
+            Muthu holds a Bachelor’s degree in Industrial Biotechnology from Anna University, India. She completed the
+            International Master in Neurosciences at the University of Bordeaux with support from the Région
+            Nouvelle-Aquitaine grant and the FidEx International Mobility Scholarship. She gained computational research
+            experience through internships at the Bordeaux Population Health Center, Radboud University and IIT Madras.
+          </p>
+        </details>
+      </div>
+    </div>
+
+    <div class="person">
+      <img src="images/people/mk.jpg" alt="Mohammed Raees MK">
+      <div>
+        <h3>Mohammed Raees MK</h3>
+        <p class="role">PhD student · MSCA CherISH (DC2) · IMPRS-MMFD · associated with Jakob Macke</p>
+        <p class="links">
+          <a href="https://github.com/mkraees">GitHub</a>
+        </p>
+        <details>
+          <summary>Full bio</summary>
+          <p>
+            Raees is part of the <a href="https://cherish-network.eu/">MSCA Doctoral Network CherISH</a> and an associate
+            PhD student with the <a href="https://www.mackelab.org/">Machine Learning in Science</a> group. He holds a
+            BS-MS from the Indian Institute of Science, Bangalore, specialising in theoretical and computational
+            neuroscience. He then spent four years as a data scientist in industrial R&amp;D at Tally Solutions, working on
+            NLP and mathematical modelling.
+          </p>
+          <p>
+            His interests include brain-inspired machine learning (learning, memory and neural representations) and
+            explainable AI. Outside work, he enjoys everything football: playing, watching and writing code to analyse the game.
+          </p>
+        </details>
+      </div>
+    </div>
+
+    <div class="person">
+      <img src="images/people/wang.jpg" alt="Jiaxin Wang">
+      <div>
+        <h3>Jiaxin Wang</h3>
+        <p class="role">PhD student · MPI for Biological Cybernetics · co-supervised with Peter Dayan</p>
+        <p class="links">
+          <a href="mailto:jer.jiaxin.wang@gmail.com">Email</a>
+        </p>
+        <details>
+          <summary>Full bio</summary>
+          <p>
+            Jiaxin is also interested in how humans learn, build and use knowledge structures, and how memory interacts
+            with these processes. He holds a Master’s degree from Beijing Normal University, where he studied the neural
+            mechanisms of human cooperative behaviour with simultaneous intracranial recordings. Away from brains and
+            models, you will find him at the cinema, on a run, or looking for his next favourite meal.
+          </p>
+        </details>
+      </div>
+    </div>
+
+    <!-- TODO: replace the initials avatar with <img src="images/people/beck.jpg" alt="Florentin Beck"> and add links -->
+    <div class="person">
+      <div class="avatar" aria-hidden="true">FB</div>
+      <div>
+        <h3>Florentin Beck</h3>
+        <p class="role">PhD student · IMPRS-IS · co-supervised with Carsten Eickhoff</p>
+      </div>
+    </div>
+
+    <h3 class="group-label">Clinician scientists</h3>
+
+    <!-- TODO: photo, short description and links -->
+    <div class="person">
+      <div class="avatar" aria-hidden="true">DD</div>
+      <div>
+        <h3>Dimitrios Dimitrakopoulos</h3>
+        <p class="role">Clinician scientist</p>
+      </div>
+    </div>
+
+    <h3 class="group-label">Interns</h3>
+
+    <!-- TODO: photos, short descriptions and links -->
+    <div class="person">
+      <div class="avatar" aria-hidden="true">SO</div>
+      <div>
+        <h3>Svea Osterloh</h3>
+        <p class="role">Intern</p>
+      </div>
+    </div>
+
+    <div class="person">
+      <div class="avatar" aria-hidden="true">ZZ</div>
+      <div>
+        <h3>Zhidong Zhang</h3>
+        <p class="role">Intern</p>
+      </div>
+    </div>
+
+    <h3 class="group-label">Collaborators</h3>
+    <div class="collabs">
+      <a class="collab" href="https://www.ukbonn.de/epileptologie/arbeitsgruppen/ag-mormann-kognitive-und-klinische-neurophysiologie/">
+        <img src="images/people/mormann.jpg" alt="">
+        <span><strong>Prof. Florian Mormann</strong><br>Department of Epileptology<br><span class="muted">University of Bonn Medical Center</span></span>
+      </a>
+      <a class="collab" href="https://www.mackelab.org/">
+        <img src="images/people/macke.jpg" alt="">
+        <span><strong>Prof. Jakob Macke</strong><br>Machine Learning in Science<br><span class="muted">University of Tübingen</span></span>
+      </a>
+      <a class="collab" href="https://www.kyb.tuebingen.mpg.de/computational-neuroscience">
+        <img src="images/people/dayan.jpg" alt="">
+        <span><strong>Prof. Peter Dayan</strong><br>Department of Computational Neuroscience<br><span class="muted">MPI for Biological Cybernetics, Tübingen</span></span>
+      </a>
+      <a class="collab" href="https://health-nlp.com/people/carsten">
+        <img src="images/people/eickhoff.jpg" alt="">
+        <span><strong>Prof. Carsten Eickhoff</strong><br>Health NLP Lab<br><span class="muted">University of Tübingen</span></span>
+      </a>
+      <a class="collab" href="https://www.eml-unitue.de/people/zeynep-akata">
+        <img src="images/people/akata.jpg" alt="">
+        <span><strong>Prof. Zeynep Akata</strong><br>Helmholtz Munich<br><span class="muted">Technical University of Munich</span></span>
+      </a>
+    </div>
+
+    <img class="group-photo" src="images/people/group.jpg" width="1760" height="1175" loading="lazy"
+         alt="Group photo of the lab members standing outside the Cyber Valley building in Tübingen">
+  </section>
+
+  <!-- ============ FUNDING ============ -->
+  <section id="funding">
+    <h2>Funding</h2>
+    <div class="logos">
+      <a href="https://uni-tuebingen.de/forschung/forschungsschwerpunkte/exzellenzcluster-maschinelles-lernen/home/"><img src="images/funding/cluster-ml.png" alt="Cluster of Excellence Machine Learning for Science"></a>
+      <a href="https://www.dfg.de/en"><img src="images/funding/dfg.jpg" alt="Deutsche Forschungsgemeinschaft (DFG)"></a>
+      <a href="https://www.bmftr.bund.de/EN/Home/home_node.html"><img src="images/funding/bmftr.svg" alt="Federal Ministry of Research, Technology and Space (BMFTR)"></a>
+      <a href="https://www.ekfs.de/en"><img src="images/funding/ekfs.svg" alt="Else Kröner-Fresenius-Stiftung"></a>
+      <a href="https://www.brainloops.de/"><img src="images/funding/loops.png" alt="SPP Sensing LOOPS"></a>
+      <a href="https://cherish-network.eu/"><img src="images/funding/cherish.jpg" alt="CherISH doctoral network"></a>
+      <a href="https://commission.europa.eu/index_en"><img src="images/funding/eu.jpg" alt="European Commission"></a>
+    </div>
+  </section>
+
+  <!-- ============ OPEN POSITIONS ============ -->
+  <!-- TODO: placeholder text. Replace with the actual open positions (title, start date, deadline, link to full ad). -->
+  <section id="positions">
+    <h2>Open positions (Template)</h2>
+    <p>
+      We are looking for motivated people who want to work at the intersection of human electrophysiology,
+      machine learning and clinical neuroscience. You will work with unique invasive and non-invasive recordings
+      from epilepsy patients, in a team that brings together clinicians, neuroscientists and ML researchers.
+    </p>
+    <div class="positions">
+      <div class="position">
+        <h3>PhD students</h3>
+        <p>Background in machine learning, computational neuroscience, physics, computer science or a related field.</p>
+      </div>
+      <div class="position">
+        <h3>Postdocs</h3>
+        <p>Experience with neural data analysis or modern ML (e.g. sequence models, foundation models, LLMs).</p>
+      </div>
+      <div class="position">
+        <h3>Master’s theses &amp; internships</h3>
+        <p>Projects on EEG / intracranial data, multimodal seizure analysis and neural network models.</p>
+      </div>
+    </div>
+    <p>
+      <strong>To apply</strong>, email <a href="mailto:stefanie.liebe@uni-tuebingen.de">stefanie.liebe@uni-tuebingen.de</a>
+      with your CV and a short statement of your research interests.
+    </p>
+  </section>
+
+  <!-- ============ CONTACT ============ -->
+  <section id="contact">
+    <h2>Contact</h2>
+    <p>
+      For inquiries, email
+      <a href="mailto:stefanie.liebe@uni-tuebingen.de">stefanie.liebe@uni-tuebingen.de</a>.
+    </p>
+    <p>
+      Maria-von-Linden-Str. 6, 3rd floor<br>
+      72076 Tübingen, Germany<br>
+      <a href="https://www.google.com/maps/search/?api=1&amp;query=Maria-von-Linden-Str.+6,+72076+T%C3%BCbingen">Open in Google Maps</a>
+    </p>
+  </section>
+
+</main>
+
+<footer class="wrap footer">
+  © 2026 Human Electrophysiology and AI · Hertie AI &amp; University of Tübingen
+</footer>
+
+</body>
+</html>
